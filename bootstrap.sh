@@ -31,4 +31,4 @@ if [ $ZSH != $SHELL ]; then
     chsh -s $ZSH
 fi
 
-echo "Prezto and Zsh installed. Open a new terminal window or tab and enjoy"
+exec zsh
