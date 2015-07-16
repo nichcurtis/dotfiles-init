@@ -21,6 +21,7 @@ fi
 if [ ! -d ~/.homesick/repos/dotfiles ]; then
     echo "Installing dotfiles."
     homeshick clone CWSpear/dotfiles
+    homeshick link dotfiles
 fi
 
 ZSH=`which zsh`
