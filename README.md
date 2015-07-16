@@ -1,14 +1,10 @@
 Overview
 ========
 
-A bootstrap script for [Homeshick][1] and [Prezto][2].
+A bootstrap script for [Homeshick](https://github.com/andsens/homeshick) and [Prezto](https://github.com/sorin-ionescu/prezto]).
 
-	curl -L http://bit.ly/homeshick-prezto | sh
+```bash
+curl -L https://raw.githubusercontent.com/CWSpear/dotfiles-init/master/bootstrap.sh | sh
+```
 
-This will install Homeshick and Prezto, then create a `dotfiles` castle for
-Prezto's default configuration dotfiles. You should add to, delete, extend or
-replace the default configuration as you see fit, then commit and push your
-changes to a remote repository.
-
-[1]: https://github.com/andsens/homeshick
-[2]: https://github.com/sorin-ionescu/prezto
+This will install Homeshick and Prezto, then create a `dotfiles` castle and install my [dotfiles](https://github.com/CWSpear/dotfiles).

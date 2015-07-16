@@ -22,9 +22,7 @@ fi
 
 if [ ! -d ~/.homesick/repos/homeshick-prezto ]; then
 	echo "Installing the default Prezto and Zsh configuration."
-	homeshick clone mrmachine/homeshick-prezto
-	cp -R ~/.homesick/repos/homeshick-prezto/template/ ~/.homesick/repos/dotfiles/home
-	homeshick link dotfiles
+	homeshick clone CWSpear/dotfiles
 fi
 
 ZSH=`which zsh`
@@ -34,5 +32,4 @@ if [ $ZSH != $SHELL ]; then
 	chsh -s $ZSH
 fi
 
-echo "Prezto and Zsh installed. Open a new terminal window or tab, then add a"
-echo "remote origin for your dotfiles castle and push an initial commit."
+echo "Prezto and Zsh installed. Open a new terminal window or tab and enjoy!"
