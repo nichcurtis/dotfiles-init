@@ -31,4 +31,4 @@ if [ $ZSH != $SHELL ]; then
     chsh -s $ZSH
 fi
 
-exec zsh
+echo "Dotfiles away!"
