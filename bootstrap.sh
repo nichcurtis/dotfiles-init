@@ -20,7 +20,7 @@ fi
 
 if [ ! -d ~/.homesick/repos/dotfiles ]; then
     echo "Installing dotfiles."
-    homeshick clone CWSpear/dotfiles
+    homeshick clone nichcurtis/dotfiles
     homeshick link dotfiles
 fi
 
